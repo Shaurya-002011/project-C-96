@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ChatyChat Room</title>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+<div class="container">
+<button id="logout" class="glyphicon glyphicon-log-out btn btn-danger" onclick="logout();">Logout</button>
+	<center>
+		<div style="text-align:center;padding:1em 0;"> <h3><a style="text-decoration:none;" href="https://www.youtube.com/channel/UCMRSqVFDq6bhMFJJMpNn5qQ/featured"><span style="color:rgb(163, 17, 107);"></span><br /></a></h3> <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=en&size=medium&timezone=Asia%2FKolkata" width="100%" height="115" frameborder="0" seamless></iframe> </div>
+		<h1 class="header">	
+			Student's Room⚔️🧑🏽‍🎓	
+			<sup>
+				<img src="jadooo.png">
+			</sup>
+		</h1>
+		<h3 id="user_name" class="color_white"></h3>
+		<div class="form-group input_div_room_page">
+			<label>#Add Group:</label>
+        <input type="text" class="form-control" id="room_name" placeholder="Group Name">
+		</div>
+		<button class="btn btn-danger" onclick="addRoom();">#Add Group</button>
+		<h3 class="color_white">#TRENDING GROUPS</h3>
+	    <div id="output" >
+			
+		</div>
+		<div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 music_div" id="music_div">
+			<h1>BACKGROUND MUSIC</h1>
+			<h3>Choose One Music And Click Play Button To Play It!!</h3>
+			<hr>
+			<lable>Inspire 2:</lable>
+			<audio controls>
+			<source src="wao.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+			</audio>
+			<hr>
+			<lable>fulfiling a duck:</lable>
+			<audio controls>
+			<source src="bobby.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+			</audio>
+			<hr>
+			<lable>saga trailer Cinamatic:</lable>
+			<audio controls>
+			<source src="saga trailer Cinamatic.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+			</audio>
+			<hr>
+			<lable>Monkeys Spinning Monkeys:</lable>
+			<audio controls>
+			<source src="Monkeys-Spinning-Monkeys.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+			</audio>
+			<hr>
+			<lable>Foam Rubber:</lable>
+			<audio controls>
+			<source src="FoamRubber-320bit.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+			</audio>
+			<br><br>
+		</div>
+	</center>
+</div>
+<script src="chatyChat_student_room.js"></script>
+<script src="chatyChat_student_login.js"></script>
+</body>
+</html>

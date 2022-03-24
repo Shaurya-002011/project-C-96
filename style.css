@@ -1,0 +1,151 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+body
+{
+	background-image:linear-gradient(to top left,  #0c7565, #06565c, #0c5675);
+}
+
+.header
+{
+	color: white;font-family: 'Yeon Sung';font-size: 45px;letter-spacing: 10px;margin-top: 80px;
+}
+.header img
+{
+	width: 80px;margin-left: -15px;
+}
+
+.login_div
+{
+	background-image:linear-gradient(to bottom right,  #0dbf90, #0ec767, #18bab5);float: none;border-radius: 15px;
+}
+
+.logo
+{
+	width: 200px;
+	height: 200px;
+	
+}
+
+#login_button
+{
+	width: 80%;border-radius: 15px;
+}
+
+.room_name
+{
+	cursor: pointer;
+	font-size: 20px;
+}
+
+
+#logout
+{
+	font-size: 20px; float: right;
+}
+
+
+#output
+{
+	padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
+}
+
+.input_div_room_page
+{
+	width: 80%;
+}
+
+.input_div label
+{
+	color: white;font-size: 20px;
+}
+
+
+.input_div_message_page
+{
+	position: fixed;bottom: 0px;width: 100%;background: rgba(255,255,255,0.8);
+}
+.input_div_message_page label
+{
+	color: black;
+}
+.input_div_message_page #msg
+{
+	width: 80%;
+}
+.input_div_message_page button
+{
+	margin-top: 15px;
+	width: 50%; 
+}
+.color_white
+{
+	color: white
+}
+
+.user_tick
+{
+	width:20px;
+}
+.message_h4
+{
+	padding-left:5px;color:grey;
+}
+
+
+.menu {
+    position: fixed;
+    background: rgb(2, 0, 0);
+    width: 100%;
+} 
+
+#student_div {
+   display: inline;
+}
+
+#teacher_div {
+	display: inline;
+}
+
+.music_div {
+	background-image:linear-gradient(to bottom right,  #0dbf90, #0ec767, #18bab5);
+	float: none;
+	border-radius: 15px;
+}
+
+.who_div {
+	background-image:linear-gradient(to bottom right,  #0dbf90, #0ec767, #18bab5);
+	float: none;
+	border-radius: 15px;
+}
+
+.student_div {
+	background-image:linear-gradient(to bottom right,  #0dbf90, #0ec767, #18bab5);
+	float: none;
+	border-radius: 15px;
+}
+
+.teacher_div {
+	background-image:linear-gradient(to bottom right,  #0dbf90, #0ec767, #18bab5);
+	float: none;
+	border-radius: 15px;
+}
+
+.features_div {
+	background-image:linear-gradient(to bottom right,  #0dbf90, #0ec767, #18bab5);
+	float: none;
+	border-radius: 15px;
+}
+
+#hw
+{
+	font-size: 20px; float: left;
+}
+
+#sos
+{
+	font-size: 20px; float:inline-start;
+}
